@@ -113,6 +113,15 @@ const LoginPage = () => {
                 />
               </div>
             </form>
+        <div className="mt-4 flex justify-center">
+          <button
+            type="button"
+            className="text-sm text-[#4acd8d] underline hover:text-green-300"
+            onClick={() => router.push("/register")}
+          >
+            Don&apos;t have an account? Register
+          </button>
+        </div>
           </div>
         </div>
       </div>
